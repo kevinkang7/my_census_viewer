@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container > div {
+  width: unset;
+}
+
+@media screen and (max-width: 500px) {
+  .container > div {
+    width: 100%;
+  }
+}

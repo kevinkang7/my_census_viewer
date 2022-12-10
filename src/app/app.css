@@ -1,0 +1,19 @@
+html {
+  font-size: max(10px, min(1.5vw, 14px));
+}
+
+.viewDiv {
+  height: '800px';
+  width: '100%';
+}
+.esri-sketch__tool-section {
+  display: 'none !important';
+}
+
+:global(.esri-view-width-xlarge .esri-popup__main-container) {
+  width: 200px;
+}
+
+:global(.esri-popup__footer) {
+  display: none;
+}

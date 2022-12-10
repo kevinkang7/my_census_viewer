@@ -1,0 +1,21 @@
+.container {
+  background-color: #003c50;
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.content {
+  color: white;
+  font-size: 0.7rem;
+  line-height: 1.3rem;
+}
+
+.span {
+  border-left: 2px solid;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
